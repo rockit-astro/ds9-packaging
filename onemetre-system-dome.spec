@@ -1,5 +1,5 @@
 Name:      onemetre-system-dome
-Version:   0.9.1
+Version:   1.0.0
 Release:   0
 Url:       https://github.com/warwick-one-metre/
 Summary:   Metapackage for the dome computer
@@ -14,7 +14,7 @@ Requires:  onemetre-power-server, onemetre-power-client
 Requires:  onemetre-operations-server, onemetre-operations-client
 Requires:  onemetre-raindetector-server, onemetre-raindetector-client
 Requires:  observatory-superwasp-client, observatory-tng-client, observatory-netping-client
-#Requires:  onemetre-camera-client, onemetre-pipeline-client, onemetre-tel-client
+Requires:  onemetre-camera-client, onemetre-pipeline-client, onemetre-telescope-client
 Requires:  ds9
 
 %description
