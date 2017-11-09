@@ -1,5 +1,5 @@
 Name:      observatory-system-gotoserver
-Version:   1.0.0
+Version:   1.0.1
 Release:   0
 Url:       https://github.com/warwick-one-metre/
 Summary:   Metapackage for the gotoserver machine
@@ -12,6 +12,7 @@ Requires:  goto-roomalert-server, goto-ups-server
 Requires:  observatory-superwasp-server, observatory-superwasp-client
 Requires:  observatory-tng-server, observatory-tng-client
 Requires:  observatory-netping-server, observatory-netping-client
+Requires:  observatory-vaisala-client, observatory-roomalert-client
 
 %description
 Metapackage that installs dependencies for the gotoserver computer.
