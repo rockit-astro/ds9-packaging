@@ -1,5 +1,5 @@
 Name:      ds9
-Version:   7.5
+Version:   8.0.1
 Release:   0
 Url:       http://ds9.si.edu/site/Home.html
 Summary:   Custom packaging of CentOS ds9 binary from the official website.
