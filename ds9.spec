@@ -1,9 +1,9 @@
 Name:      ds9
-Version:   8.2.1
+Version:   8.3
 Release:   0
 Url:       http://ds9.si.edu/site/Home.html
 Summary:   Custom packaging of CentOS ds9 binary from the official website.
-Source:    https://ds9.si.edu/download/centos7/ds9.centos7.%{version}.tar.gz
+Source:    https://ds9.si.edu/download/centos8/ds9.centos8.%{version}.tar.gz
 License:   GPL-3.0
 Group:     Unspecified
 BuildArch: x86_64
