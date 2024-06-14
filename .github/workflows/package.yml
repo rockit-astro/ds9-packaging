@@ -38,7 +38,7 @@ jobs:
         with:
           arch: none
           distro: none
-          base_image: arm64v8/rockylinux:9
+          base_image: arm64v8/rockylinux:9.2
           shell: /bin/bash
           dockerRunArgs: |
             --volume "${PWD}/artifacts:/artifacts"

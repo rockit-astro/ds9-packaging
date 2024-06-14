@@ -1,5 +1,5 @@
 Name:      ds9
-Version:   8.5b1
+Version:   8.6b1
 Release:   0
 Url:       http://ds9.si.edu/site/Home.html
 Summary:   Custom packaging of CentOS ds9 binary from the official website.
@@ -8,9 +8,9 @@ Group:     Unspecified
 BuildArch: x86_64 aarch64
 
 %ifarch aarch64
-Source:    https://ds9.si.edu/download/fedora36arm64/ds9.fedora36arm64.%{version}.tar.gz
+Source:    https://ds9.si.edu/download/centos9arm64/ds9.centos9arm64.%{version}.tar.gz
 %else
-Source:    https://ds9.si.edu/download/centos8/ds9.centos8.%{version}.tar.gz
+Source:    https://ds9.si.edu/download/centos9x86/ds9.centos9x86.%{version}.tar.gz
 %endif
 
 %description
