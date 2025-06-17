@@ -1,6 +1,6 @@
 Name:      ds9
 Version:   8.6
-Release:   0
+Release:   1%{dist}
 Url:       http://ds9.si.edu/site/Home.html
 Summary:   Custom packaging of CentOS ds9 binary from the official website.
 License:   GPL-3.0
