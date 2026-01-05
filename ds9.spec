@@ -1,6 +1,6 @@
 Name:      ds9
 Version:   8.6
-Release:   1%{dist}
+Release:   2%{dist}
 Url:       http://ds9.si.edu/site/Home.html
 Summary:   Custom packaging of CentOS ds9 binary from the official website.
 License:   GPL-3.0
@@ -21,10 +21,12 @@ Source:    https://ds9.si.edu/download/centos9x86/ds9.centos9x86.%{version}.tar.
 %build
 
 mkdir -p %{buildroot}%{_bindir}
-%{__install} ds9 %{buildroot}%{_bindir}
+%{__install} ds9 %{buildroot}%{_bindir}/_ds9
+echo XMODIFIERS=\"@im=none\" /usr/bin/_ds9 \$@ > %{buildroot}%{_bindir}/ds9
 
 %files
 %defattr(0755,root,root,-)
 %{_bindir}/ds9
+%{_bindir}/_ds9
 
 %changelog
